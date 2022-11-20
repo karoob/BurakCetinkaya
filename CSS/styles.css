@@ -77,3 +77,54 @@ hr {
     border-radius: 200px;
     width: 15%;
 }
+
+.header {
+    width: auto;
+    height: 80px;
+    background-color: #b9b9b9;
+    position: relative;
+    background-color: #9a7422;
+}
+
+.inner-header {
+    width: 70%;
+    height: 80px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+    height: 100%;
+    float: left;
+}
+
+.the-tree {
+    width: 70px;
+    margin-top: 5px;
+}
+.navigator {
+    height: 100%;
+    float:right;
+}
+
+.navigator a {
+    height: 100%;
+    float: left;
+    padding: 0 20px;
+    display: table;
+    text-underline-offset: 1;
+    text-decoration: none;
+}
+
+.navigator a:last-child {
+    padding-right: 0;
+}
+
+.navigator a li {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
