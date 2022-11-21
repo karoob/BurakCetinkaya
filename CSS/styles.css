@@ -8,15 +8,20 @@ body {
 
 h1 {
     font-family: 'Sacramento', cursive;
-    font-size: 7ch;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto ;
+    color: #66BFBF;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 .topcontainer {
@@ -25,18 +30,6 @@ h3 {
     position: relative;
     padding-top: 100px;
 }
-.middlecontainer {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-}
-
-.bottomcontainer {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-}
-
 .bottom-cloud {
     position: absolute;
     right: 300px;
@@ -50,25 +43,18 @@ h3 {
     
 }
 
-.codding {
-    width: 13%;
-}
-
-.hummor {
-    width: 13%;
-}
-
 .middle-container {
-    background-color: #FFEFD6;
+    background-color: #ffff;
 }
 
 .contact-me {
-    background-color: #F2DEBA;
+    padding-top: 5px;
+    background-color: #7ccece;
 }
 
 hr {
     border: none;
-    border-top: 10px dotted #b9b9b9;
+    border-top: 10px dotted #EAF6F6;
     width: 3%;
 }
 
@@ -78,12 +64,13 @@ hr {
     width: 15%;
 }
 
+/* Header part of the screen.*/
+
 .header {
     width: auto;
     height: 80px;
-    background-color: #b9b9b9;
+    background-color: #66BFBF;
     position: relative;
-    background-color: #9a7422;
 }
 
 .inner-header {
@@ -127,4 +114,59 @@ hr {
     color: white;
     font-family: 'Montserrat';
     font-size: 16px;
+}
+
+.btn {
+    text-decoration: none;
+    color:  #11999E;
+    margin: 10px;
+}
+
+/* Skills */
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.codding {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 0;
+}
+
+.hummor {
+    width: 25%;
+    height:auto;
+    float: right;
+}
+
+.p-hummor {
+    display: block;
+    position: relative;
+    left: 60px;
+}
+
+.h3-Jokes {
+    display: block;
+    position: relative;
+    left: 60px;
+}
+
+.coppyright {
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+
+.contact-me {
+    height: 120px;
+    padding-top: auto;
+}
+
+.contact-me-inner {
+    position: relative;
+    top: 30px;
 }
