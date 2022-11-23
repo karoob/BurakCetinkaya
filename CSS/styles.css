@@ -68,10 +68,10 @@ hr {
 }
 
 .photo-burak {
-    margin-top: 50px;
+    margin: 50px auto;
     border-radius: 50%;
     width: 15%;
-    margin-bottom: 50px;
+
 }
 
 /* Header part of the screen.*/
@@ -133,7 +133,11 @@ hr {
 .btn {
     text-decoration: none;
     color:  #11999E;
-    margin: 10px;
+    margin: 20px;
+}
+
+.btn:hover {
+    color:#EAF6F6;
 }
 
 /* Skills */
